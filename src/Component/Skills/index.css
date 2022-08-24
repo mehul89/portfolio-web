@@ -1,0 +1,186 @@
+.chart footer div {
+    width: 0;
+    height: 90%;
+    background-color: aqua;
+    -webkit-transition: width 1.3s ease-out;
+    -o-transition: width 1.3s ease-out;
+    transition: width 1.3s ease-out;
+}
+
+.project {
+
+    position: absolute;
+    bottom: -424px;
+    width: 25%;
+    margin-top: 20px;
+
+    margin-left: 8%;
+}
+
+.project h1:before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #ffd700;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -20px;
+    left: -15px;
+    opacity: 0.6;
+
+}
+
+.project h1:after {
+    content: '</h1>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #ffd700;
+    font-size: 18px;
+    position: absolute;
+    left: -14px;
+    bottom: -26px;
+    animation: fadeIn 1s 1.7s backwards;
+    opacity: 0.6;
+}
+
+.peoject-p {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    animation: pulse 1s;
+    margin-top: 70px;
+    position: absolute;
+
+}
+
+
+.peoject-p:before {
+    content: '<P>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #ffd700;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -29px;
+    opacity: 0.6;
+    left: -3px;
+}
+
+.peoject-p:after {
+    content: '</P>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #ffd700;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 42px;
+    left: 1px;
+    opacity: 0.6;
+}
+
+
+.project-container {
+    width: 80%;
+    background-color: #022c43;
+    margin-top: 83%;
+    margin-left: 8%;
+
+
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid greenyellow;
+
+
+
+}
+
+
+
+
+
+h4 {
+
+    font-size: 22px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 28px;
+}
+
+
+#myCanvasContainer {
+
+    display: flex;
+    width: 40%;
+    margin-right: 5%;
+
+}
+
+#myCanvas {
+    margin: auto;
+
+    width: 100%;
+
+}
+
+
+.Skills-page {
+
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+
+@media screen and (min-width: 240px) and (max-width: 1024px) {
+
+    .p-text {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+
+
+    .Skills-page {
+        flex-direction: column;
+
+    }
+
+    .t-Skills {
+
+        width: 85%;
+        height: 51% !important;
+
+
+
+    }
+
+    .r {
+        font-size: 15px !important;
+
+    }
+
+    #myCanvasContainer {
+        width: auto;
+        margin-right: 0px;
+
+    }
+
+    .p-text {
+        height: 80% !important;
+        margin-top: 16px !important;
+
+    }
+
+    .r-s{
+        margin-bottom: 0px !important;
+    }
+
+
+
+
+
+}

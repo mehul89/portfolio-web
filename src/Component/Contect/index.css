@@ -1,0 +1,338 @@
+#contect-p {
+
+
+
+    font-size: 16px;
+    color: #fff;
+    font-family: cursive;
+    font-weight: 300;
+    animation: pulse 1s;
+    margin-top: 62px;
+    margin-left: 15px;
+
+
+
+
+}
+
+#contect-p:before {
+    content: '<P>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #ffd700;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -29px;
+    left: -15px;
+    opacity: 0.6;
+    left: -3px;
+
+
+}
+
+#contect-p:after {
+    content: '</P>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #ffd700;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 36px;
+    left: 1px;
+    opacity: 0.6;
+}
+
+
+.contect-form {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10%;
+
+}
+
+.form-detail {
+    width: 35%;
+    margin-right: 12%;
+
+}
+
+
+.inputs {
+
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    padding: 8px;
+
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    background-color: #ccc;
+    color: #000;
+    font-family: cursive;
+    font-size: medium;
+
+}
+
+#text {
+
+    height: 104px;
+}
+
+#follow-text {
+
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    position: relative;
+    color: #ffd700;
+
+
+}
+
+.follow {
+
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 40%;
+
+}
+
+
+#follow-text:before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #ffd700;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -29px;
+    left: -15px;
+    opacity: 0.6;
+    left: -3px;
+
+
+}
+
+#follow-text:after {
+    content: '</h1>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #ffd700;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 48px;
+    left: -1px;
+    opacity: 0.6;
+
+}
+
+#ul-list {
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+
+.follow-link {
+
+    display: flex;
+    width: 60em;
+
+}
+
+
+.a-link {
+
+    font-size: 32px;
+}
+
+#instagram {
+    height: auto;
+}
+
+.f-section {
+    display: flex;
+    align-items: center;
+    width: 88%;
+    MARGIN: auto;
+    margin-top: 7%;
+}
+
+.f-mail {
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    font-family: cursive;
+    margin-left: 18%;
+
+}
+
+.follow-to {
+
+    text-decoration: none;
+}
+
+.lnr-envelope {
+    font-size: 25px;
+    color: #ffd700;
+}
+
+.lnr-home {
+    font-size: 25px;
+    color: #ffd700;
+}
+
+.Email {
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    margin-left: 22px;
+}
+
+.home {
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#s{
+    background-color: transparent;
+    
+
+}
+
+
+
+@media screen and (min-width: 240px) and (max-width: 1024px) {
+
+    .f-mail {
+
+        margin-left: 0%;
+
+    }
+
+    .t-contect {
+
+        margin: auto;
+        width: fit-content;
+        margin-top: 18px;
+        height: auto !important;
+    }
+
+    #contect-p:before {
+        margin-left: 3rem;
+    }
+
+    #contect-p:after {
+
+        margin-left: 3rem;
+    }
+
+    .contect-form {
+
+        width: 70em;
+        margin-top: 7rem;
+
+
+    }
+
+    .form-detail {
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .follow {
+        display: none;
+    }
+
+
+    .f-section {
+
+        width: auto;
+        margin-left: 31px;
+        margin-top: 10em;
+
+    }
+
+    .f-t {
+
+        display: flex;
+        width: 80%;
+    }
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+
+
+    .f-t {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t-contect {
+
+        width: 40%;
+        margin-left: 0%;
+    }
+
+
+    #contect-p {
+
+        display: none;
+
+
+    }
+
+    .contect-form {
+        margin-top: 0px;
+        width: 60%;
+    }
+
+    .f-section {
+
+        margin-top: 30px;
+        margin-left: 0px;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .f-mail {
+        width: auto;
+
+    }
+
+    .follow-to {
+
+        letter-spacing: 0px;
+    }
+
+    .follow-link {
+
+        width: 71em;
+        justify-content: center;
+        
+    }
+
+
+    #ul-list {
+        justify-content: space-evenly;
+        margin-right: 74px;
+        margin-top: 25px;
+    
+    }
+
+
+
+
+
+}

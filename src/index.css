@@ -1,0 +1,38 @@
+
+
+
+html {
+    font-size: 100%;
+}
+
+body {
+
+    margin: 0%;
+    font: 300 11px/1.4 "Helvetica Neue", "sen-serif";
+
+
+
+    background: linear-gradient(-170deg, #000, #320001, #041B41, #000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+
+
+
+    display: block;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
