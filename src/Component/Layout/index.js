@@ -11,12 +11,7 @@ const Layout = () => {
 
 
     return (
-
-
-
-
-
-        <div className="App">
+ <div className="App">
 
             <Sidebar />
             <AnimatedCursor
